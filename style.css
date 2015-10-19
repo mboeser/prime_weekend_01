@@ -1,0 +1,33 @@
+body {
+	margin: 0 auto;
+	text-align: center;
+	font-family: monospace;
+}
+
+#monthDiv {
+	margin: 5px 0;
+	font-size: 1.5rem;
+	font-style: bold;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	border: 1px solid gray;
+	width: 200px;
+}
+
+button {
+	font-family: monospace;
+	background-color: #FF0066;
+	border-radius: 15px;
+	border: none;
+}
+
+#monthlyTotalSalary {
+	font-size: 1.8rem;
+	background-color: yellow;
+}

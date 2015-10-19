@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type='text/javascript' src='app.js'></script>
+	</head>
+
+	<body>
+		<h1>Employee Monthly Salary Cost</h1>
+		<form id='employeeInfo'>
+			<label for='employeename'>Employee Name:</label>
+			<input type='text' id='employeename' name='employeename' placeholder="John Doe"/>
+			
+			<label for='employeenumber'>Employee Number:</label>
+			<input type='text' id='employeenumber' name='employeenumber' placeholder="1234"/>
+			
+			<label for='employeeJobTitle'>Employee Job Title:</label>
+			<input type='text' id='employeeJobTitle' name='employeeJobTitle' placeholder="Developer"/>
+			
+			<label for='employeeSalary'>Employee Salary:</label>
+			<input type='text' id='employeeSalary' name='employeeSalary' placeholder="50000"/>
+
+			<input type='submit' value='Submit Employee'/>
+		</form>
+		<div id='monthDiv'>Monthly Salary Cost <span id="monthlyTotalSalary"></span></div>
+		<div id="employeeContainer"></div>
+	</body>
+</html>
